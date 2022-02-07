@@ -1,0 +1,20 @@
+.h1{
+    font-weight:600; 
+    color: rgb(12, 40, 100);
+}
+.header{
+    background-color: rgb(8, 67, 107);
+    color: white;
+}
+.faq-div{
+    border: 0.5px solid rgb(130, 209, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.footer{
+    background-image: linear-gradient(rgb(66, 65, 65),rgb(80, 75, 75));
+}
+.footer>a{
+    text-decoration: none;
+    color: white;
+}
