@@ -23,9 +23,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-              <a class="nav-link text-light" href="#">Shop</a>
-              <a class="nav-link text-light" href="#">New</a>
-              <a class="nav-link text-light"href="#">Contact</a>
+              <a class="nav-link text-light" href="#shop">Shop</a>
+              <a class="nav-link text-light" href="#news">News</a>
+              <a class="nav-link text-light"href="https://www.bdhonda.com/">Contact</a>
               <button class="nav-link btn btn-danger text-light p-2">Login</button>
             </div>
           </div>
@@ -100,7 +100,7 @@
         </button>
       </div>
       </header>
-      <section class="featured m-5">
+      <section id="shop" class="featured m-5">
           <h1 class="text-center">Featured bikes 2022</h1>
           <h6 style="color: orange;" class="text-center">Best bike collection</h6>
           <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
@@ -124,7 +124,7 @@
               </div>
           </div>
       </section>
-      <section class="latest m-5">
+      <section id="news" class="latest m-5">
           <h1 class="text-center h1">Latest news</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 m-5">
             <div class="col">
@@ -132,8 +132,10 @@
                 <img src="images/bike-1-min.png" class="card-img-top p-2" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">DUCATI XDIAVEL S-73</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum exercitationem voluptates quisquam minima omnis, et iure.</p>
-                  <button type="button" class="btn btn-outline-warning">Read more</button>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum exercitationem voluptates quisquam minima omnis, et iure. <span id="more1">ipsum, dolor sit amet consectetur adipisicing elit. Placeat, vel!</span> </p>
+                  <button id="btn1" type="button" class="btn btn-outline-warning">Read more</button>
+                  <button id="less-btn1" type="button" class="btn btn-outline-danger">Read less</button>
+
                 </div>
               </div>
             </div>
@@ -142,8 +144,9 @@
                 <img src="images/bike-2-min.png" class="card-img-top p-2" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Motorcycles & skooters</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione autem sit error esse sapiente beatae dolore.</p>
-                  <button type="button" class="btn btn-outline-warning">Read more</button>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ratione autem sit error esse sapiente beatae dolore. <span id="more2">ipsum dolor, sit amet consectetur adipisicing elit. Culpa, aspernatur deserunt recusandae quaerat deleniti quis temporibus rem nulla voluptates iste?</span></p>
+                  <button id="btn2" type="button" class="btn btn-outline-warning">Read more</button> 
+                  <button id="less-btn2" type="button" class="btn btn-outline-danger">Read less</button>
                 </div>
                 
               </div>
@@ -153,8 +156,9 @@
                 <img src="images/bike-3-min.png" class="card-img-top p-2" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">2022 Honda CBR 500R</h5>
-                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolore unde aut hic ullam nisi amet odit.</p>
-                  <button type="button" class="btn btn-outline-warning">Read more</button>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi dolore unde aut hic ullam nisi amet odit. <span id="more3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iusto earum repellat et ipsum natus quis voluptates aliquam, doloremque aperiam.</span></p>
+                  <button id="btn3"  type="button" class="btn btn-outline-warning">Read more</button>
+                  <button id="less-btn3" type="button" class="btn btn-outline-danger">Read less</button>
                 </div>
                
               </div>
@@ -210,7 +214,7 @@
         </div>
       </section>
       <section class="question">
-        <h1 class="text-center">Frequntly asked question</h1>
+        <h1 class="text-center"><span style="color: orange;">Frequently</span> asked question</h1>
         <div class="row  d-flex align-items-center m-5">
           <div class="col-md-7 ">
               <img class="w-75" src="images/faq-min.png" alt="">
@@ -296,7 +300,7 @@
             <a class="text-light"href="">Careers</a>
             <a class="text-light"href="">Help</a>
             <a class="text-light"href="">Private policy</a>
-            <h6 class="text-secondary mt-5">®2022 all rights reserved by honda company ltd.</h6>
+            <h6 class="text-secondary mt-5">®2022 all rights reserved honda company ltd.</h6>
           </div>
           <!-- <div class="app">
             <img style="width: 50%;" src="https://seeklogo.com/images/A/app-store-google-play-logo-4A2747BF5E-seeklogo.com.png" alt="">

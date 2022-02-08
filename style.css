@@ -14,7 +14,9 @@
 .footer{
     background-image: linear-gradient(rgb(66, 65, 65),rgb(80, 75, 75));
 }
-.footer>a{
-    text-decoration: none;
-    color: white;
+#more1, #more2, #more3{
+    display: none;
+}
+#less-btn1, #less-btn2, #less-btn3{
+    display: none;
 }
